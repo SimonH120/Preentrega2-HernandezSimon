@@ -5,6 +5,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+
 }
 
 .bod_color {  background-color: rgb(3, 3, 41);
@@ -66,6 +67,7 @@ nav a:hover {
 }
 
 .form {
+    float: left;
     display: grid;
     gap: 50px 100px;
     grid-template-columns: auto auto auto;
@@ -115,6 +117,8 @@ nav a:hover {
 }
 
 
+
+
 .carousel-inner > .item > img {
     margin: 0 auto;
   }
@@ -128,7 +132,12 @@ footer {
     margin-top: auto;
     text-align: right;
     margin: auto;
+    position: sticky;
+    position: absolute;
+
 }
+
+
 
 .footer-p {
     text-align: left;
@@ -162,6 +171,8 @@ footer {
     font-size: 30px;
     text-align: center;
     align-content: right;
+    height: auto;
+    object-fit: contain;
   }
   
 .row {
@@ -176,21 +187,7 @@ footer {
   
   
   
-  @media screen and (max-width: 800px) {
-    .row {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
-  
-  
-  @media screen and (max-width: 600px) {
-    .row {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
-
+ 
 
 
 .animation {
